@@ -42,7 +42,7 @@ long readDistance () {
   long duration = pulseIn(ECHO, HIGH, 30000);
 
   // Convert time to distance in centimetres
-  long distance = duration * 0.0343 / 2;
+  long distance = duration * 0.0343 / 4;
 
   theDistance = distance;
 
