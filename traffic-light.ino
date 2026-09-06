@@ -1,3 +1,5 @@
+// dummy commit
+
 const int TRIG = 5;
 const int ECHO = 4;
 
